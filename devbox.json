@@ -5,7 +5,7 @@
     "nodejs": "24.0.0-rc.3",
     "go": "1.23rc1",
     "python": "3.13.0a1",
-    "jdk": "21.0.3+9"
+    "jdk": "25.0.0"
   },
   "env": {
     "DEVBOX_COREPACK_ENABLED": "true"

@@ -53,39 +53,31 @@
         }
       }
     },
-    "jdk@21.0.3+9": {
-      "last_modified": "2024-10-13T23:44:06Z",
-      "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#jdk",
+    "jdk@25.0.0": {
+      "last_modified": "2025-10-22T20:59:19Z",
+      "resolved": "github:NixOS/nixpkgs/01b6809f7f9d1183a2b3e081f0a1e6f8f415cb09#jdk25",
       "source": "devbox-search",
-      "version": "21.0.3+9",
+      "version": "25.0.0",
       "systems": {
-        "aarch64-linux": {
+        "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/f9n9nh93hbdvx1b2kg0fr46dd1g2b3gn-openjdk-21.0.3+9",
+              "path": "/nix/store/3l55i019dc9ydjv4nishhbjp6fq224vk-zulu-ca-jdk-25.0.0",
               "default": true
-            },
-            {
-              "name": "debug",
-              "path": "/nix/store/jpwcmkiy94zdvasd0ar3k105wqzklcv2-openjdk-21.0.3+9-debug"
             }
           ],
-          "store_path": "/nix/store/f9n9nh93hbdvx1b2kg0fr46dd1g2b3gn-openjdk-21.0.3+9"
+          "store_path": "/nix/store/3l55i019dc9ydjv4nishhbjp6fq224vk-zulu-ca-jdk-25.0.0"
         },
-        "x86_64-linux": {
+        "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/p5w6cmwqfvhyaf4vjr7jb18a90icrrr2-openjdk-21.0.3+9",
+              "path": "/nix/store/5dljvgfvb3did4279ffkc89fr1i8rzha-zulu-ca-jdk-25.0.0",
               "default": true
-            },
-            {
-              "name": "debug",
-              "path": "/nix/store/9ijcsc3m9i1gsd001dyagvggpfz9xm05-openjdk-21.0.3+9-debug"
             }
           ],
-          "store_path": "/nix/store/p5w6cmwqfvhyaf4vjr7jb18a90icrrr2-openjdk-21.0.3+9"
+          "store_path": "/nix/store/5dljvgfvb3did4279ffkc89fr1i8rzha-zulu-ca-jdk-25.0.0"
         }
       }
     },
@@ -96,6 +88,14 @@
       "source": "devbox-search",
       "version": "24.0.0",
       "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "path": "/nix/store/zykg602911gq649r47vcsppd9r0rdf4g-nodejs-24.0.0",
+              "default": true
+            }
+          ]
+        },
         "aarch64-linux": {
           "outputs": [
             {
